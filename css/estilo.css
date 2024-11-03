@@ -58,3 +58,39 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Estilo del pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 0;
+    font-weight: bold;
+}
+
+footer a {
+    color: #ff7e5f;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+footer a:hover {
+    color: #feb47b;
+}
+
+/* Ícono de Instagram */
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    transition: transform 0.3s;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
