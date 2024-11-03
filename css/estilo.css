@@ -84,7 +84,8 @@ footer a:hover {
 
 /* Ícono de Instagram */
 .icon {
-    max-width: 30px;
+    max-width: 20px;
+    height: auto;
     max-height: 30px;
     margin-top: 10px;
     transition: transform 0.3s;
