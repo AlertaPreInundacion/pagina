@@ -7,19 +7,6 @@ body {
     color: #333;
 }
 
-/* Cabecera */
-header {
-    background: linear-gradient(45deg, #ff7e5f, #feb47b);
-    padding: 20px;
-    text-align: center;
-    color: white;
-}
-
-header h1 {
-    font-size: 2.5em;
-    margin: 0;
-}
-
 /* Navegación */
 /* Estilo de navegación horizontal */
 nav {
@@ -53,54 +40,11 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-
 /* Contenedor principal */
 main {
     padding: 20px;
     max-width: 1200px;
     margin: auto;
-}
-
-/* Tarjetas para contenido */
-.card {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
-    margin: 20px;
-    padding: 20px;
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.card:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
-}
-
-/* Títulos de sección */
-h2 {
-    color: #ff7e5f;
-    font-size: 1.8em;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-/* Botones */
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 10px 0;
-    background-color: #ff7e5f;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 1em;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.button:hover {
-    background-color: #feb47b;
 }
 
 /* Enlaces */
@@ -114,54 +58,3 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Diseño de columnas */
-.columns {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.column {
-    flex: 1;
-    min-width: 280px;
-    margin: 10px;
-}
-
-/* Pie de página */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    font-size: 0.9em;
-}
-
-footer a {
-    color: #ff7e5f;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
-/* Efectos adicionales */
-.highlight {
-    background: linear-gradient(45deg, #ff7e5f, #feb47b);
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-
-/* Media Queries para Responsividad */
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 2em;
-    }
-    nav a {
-        padding: 10px;
-    }
-    .columns {
-        flex-direction: column;
-    }
-}
