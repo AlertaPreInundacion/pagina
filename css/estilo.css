@@ -94,4 +94,6 @@ footer a:hover {
 .icon:hover {
     transform: scale(1.2);
 }
-
+.logo{
+    scale: 0.6;
+}
